@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Premier fichier Javascript</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+	<div id="header">
+	</div>
+	<div id="main">
+	</div>
+	<div id="footer">
+	</div>
+    <script>
+
+    var age = 17;
+
+    if (age < 18) {
+    	alert('Tu es mineur');
+    }
+    else {
+    	alert('Tu es majeur');
+    }
+
+    var choix = prompt('Merci de choisir un mot : chat, bateau, avion');
+
+    switch(choix) {
+        case 'avion':
+            alert('Vous avez tiré le gros lot !');
+            break;
+        case 'bateau':
+            alert('Vous avez gagné le droit de rentrer chez vous sans rien');
+            break;
+        case 'chat':
+            alert('Vous avez gagné le lot de consolation !');
+            break;       
+    }
+    </script>
+</body>
+</html>
